@@ -1,0 +1,13 @@
+
+{
+    "files.exclude": {
+        "src/models/": true,
+        "src/containers/": true,
+        // "src/components/Swap": true,
+        "src/components/TxHistory": true,
+        "src/helper.js": true,
+        "src/helper2.js": true,
+        "**/*.map": true
+    },
+    "editor.acceptSuggestionOnEnter": "on"
+}

@@ -1,0 +1,44 @@
+.token_modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 15;
+
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.token_modal .show{
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.token_modal .modal-dialog {
+  max-width: 440px;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 50px;
+}
+
+.token_modal .modal-content{
+    border-radius: 10rem;
+}
+
+.token_modal .modal-header {
+  padding: 2rem;
+  
+}
+
+.token_modal .modal-body{
+    padding : 0 1rem;
+}
+
+/* .token_modal.fade .modal-dialog {
+  transition: transform 0.3s ease-out;
+  transform: translate(0, -50px);
+} */
